@@ -2,18 +2,17 @@
 
 
 
-const nota = 7
-
 function resultado(nota){
-if(media >= 7){
-    console.log(media +" Aprovado")
+if(nota > 7){
+    console.log(nota +" Aprovado")
 }
 
 else{
-    console.log(media +" Reprovado")
+    console.log(nota +" Reprovado")
 }
 }
 
+resultado(7)
 
 // const soma = (x,y,z)=> x+y+z  
 
