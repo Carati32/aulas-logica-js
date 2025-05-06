@@ -1,11 +1,37 @@
-// crie uma função que receba um array chamada desmembraArray que execute um laço for e exiba todos os itens abaixo do outro
+// crie uma função que receba um array chamada desmembraArray que execute um laço for e exiba todos os itens um abaixo do outro
 
-let numeros = ["1","2","3","4","5"]
+const vogais = ["a","e","i","o","u"]
+const verifica = vogais.includes("a")
 
-function desmembraArray(numeros){
-    for(let i = 0; i < numeros.length;i++){
-        console.log(numeros[i])
-    }
-}
+const palavra = "texto"
+const palavaEmMaiusculo = palavra.toUpperCase()
 
-desmembraArray(numeros)
+console.log(palavaEmMaiusculo)
+
+console.log(verifica)
+
+let num = 10
+// num+=5
+num = num + 5
+
+console.log(num)
+
+// function contarVogais(palavra){
+//     const vogais = ["a","e","i","o","u"]
+//     let contador = 0
+
+//     for(const letra of palavra.toLowerCase()){
+//         if(vogais.includes(letra)){
+//             contador++
+//         }
+//     }
+
+//     return contador
+// }
+
+// console.log(contarVogais("Javascript"))
+
+
+// for(let i = 0 ; i <= 100 ; i +=5){
+//     console.log(i)
+// }
